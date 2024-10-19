@@ -1,6 +1,6 @@
 import requests
 
-api_key='023fa42bbcf8cac2d9ba8272f793dd2f'
+//api_key
 user_input = input("Enter city: ")
 
 weather_data = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={user_input}&units=imperial&APPID={api_key}")
